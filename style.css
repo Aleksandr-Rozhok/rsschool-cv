@@ -1,0 +1,65 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+}
+
+header {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+main {
+    padding-top: 100px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.avatar {
+    padding-top: 50px;
+    width: 240px;
+    height: 350px;
+}
+
+.name {
+    width: 300px;
+    font-size: 75px;
+    color: #fff;
+    font-family: "Gill", sans-serif;
+}
+
+.box {
+    margin: 50px;
+    width: 300px;
+    height: 250px;
+}
+
+h2 {
+    font-family: "Magneto", sans-serif;
+    font-size: 44px;
+}
+
+p {
+    font-size: 24px;
+    font-family: "Comic", sans-serif;
+    font-weight: 600;
+}
+
+li {
+    font-size: 40px;
+    text-decoration: underline;
+    list-style-type: none;
+    font-family: "Comic", sans-serif;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
